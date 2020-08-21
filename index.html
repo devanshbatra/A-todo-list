@@ -12,6 +12,7 @@
         integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
         crossorigin="anonymous" />
     <link rel="stylesheet" href="./t-style.css">
+    <link rel="stylesheet" media="screen and (max-width: 740px)" href="./responsive.css">
 </head>
 
 <body>
@@ -23,6 +24,7 @@
         <button class="addbtn" type="submit">
             <i class="fas fa-plus-square"></i>
         </button>
+    </form>
         <div class="select">
             <select name="filter" class="filter">
                 <option value="all">All</option>
@@ -30,7 +32,6 @@
                 <option value="notcompleted">Not completed</option>
             </select>
         </div>
-    </form>
     <div class="todocontainer">
         <ul class="todolist"></ul>
     </div>
