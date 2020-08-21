@@ -7,6 +7,4 @@ input{
 h1{
     font-size: 2.5rem;
 }
-.select::after{
-    padding: 0.7rem;
-}
+
