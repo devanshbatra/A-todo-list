@@ -110,7 +110,7 @@ select{
     content: '\25BC';
     color: white;
     background: rgb(235, 85, 31);
-    padding: 0.85rem;
+    padding: 0.78rem;
     position: absolute;
     top: 0;
     right: 0;
@@ -123,7 +123,7 @@ select{
     position: relative;
     width: 10rem;
     position: absolute;
-    top: 22px;
+    bottom: 22px;
     right: 22px;
 }
 .select:hover::after{
