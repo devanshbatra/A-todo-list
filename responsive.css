@@ -1,0 +1,13 @@
+body{
+    background: linear-gradient(to right, #f16a52, #e93020);
+}
+.select{
+    top: 100px;
+}
+
+input{
+    width: 250px;
+}
+h1{
+    font-size: 2.5rem;
+}
